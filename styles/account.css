@@ -24,7 +24,7 @@ legend {;
       margin: 0 auto 1em auto;
       }
 
-p {
+form > fieldset p {
       display: flex;
       align-items: center;
       justify-content: center;
