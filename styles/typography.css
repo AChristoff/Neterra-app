@@ -82,3 +82,7 @@ blockquote .author:before {
       content: "‒";
       padding-right: 0.5em;
       }
+
+address {
+      font-style: normal;
+      }
