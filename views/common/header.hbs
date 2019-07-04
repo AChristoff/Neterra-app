@@ -1,0 +1,35 @@
+<div class="site">
+
+   <header class="site-header">
+      <div class="wrapper">
+
+         <h1 class="site-logo">
+            <a href="/">
+               <img src="https://www.neterra.net/img/N_logo.svg" alt="neterra.tv">
+            </a>
+         </h1>
+
+         <nav class="site-nav">
+            {{#if isAuth}}
+               <ul>
+                  <li>Welcome, {{username}}</li>
+                  <li><a href="#/home" class="btn btn-primary">Home</a></li>
+                  <li><a href="#/list" class="btn btn-primary">List</a></li>
+                  <li><a href="#/account" class="btn btn-primary">Account</a></li>
+                  <li><a class="nav-link" href="#/logout">Logout</a></li>
+               </ul>
+            {{else}}
+               <ul>
+                  <li><a href="#/home" class="btn btn-primary">Home</a></li>
+                  <li><a href="#/list" class="btn btn-primary">List</a></li>
+                  <li><a href="#/account" class="btn btn-primary">Account</a></li>
+               </ul>
+            {{/if}}
+         </nav>
+
+      </div>
+   </header>
+
+</div>
+
+<script>fixNavigation()</script>

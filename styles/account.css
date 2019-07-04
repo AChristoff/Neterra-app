@@ -1,0 +1,103 @@
+form {
+      display: block;
+      width: 80%;
+      height: auto;
+      margin: 0 auto 4em auto;
+      padding: 3em;
+      border-bottom-right-radius: 1em;
+      border-bottom-left-radius: 1em;
+      color: #FFFFFF;
+      background-color: #008583;
+      background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.08'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      }
+
+fieldset {
+      line-height: 1;
+      border: none;
+      height: auto;
+      width: 80%;
+      margin: 0 auto;
+      }
+
+legend {;
+      font-size: 2.2rem;
+      margin: 0 auto 1em auto;
+      }
+
+p {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 1em auto;
+      }
+
+#message-area {
+      align-items: flex-start;
+      }
+
+fieldset label, #gender {
+      width: 6.8em;
+      }
+
+#gender-selector label {
+      width: 4em;
+      }
+
+#gender-selector input {
+      margin-right: 0.4em;
+      }
+
+fieldset label[for="agree"] {
+      width: 18em;
+      }
+
+#checkbox,
+#gender-selector {
+      justify-content: flex-start;
+      }
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+      width: 60%;
+      margin-right: auto;
+      padding: 0.4em 0.7em;
+      }
+
+textarea {
+      max-width: 20.25em;
+      min-width: 8em;
+      }
+
+input[type="checkbox"] {
+      margin-right: 0.5em;
+      }
+
+input[type="submit"] {
+      text-decoration: none;
+      color: #FFFFFF;
+      display: block;
+      padding: 0.6em 0;
+      text-align: center;
+      border: 2px solid #FFFFFF;
+      width: 8em;
+      outline: none;
+      font-weight: 500;
+      border-radius: 0.2em;
+      background: linear-gradient(to right, #FFFFFF, #FFFFFF) no-repeat;
+      background-size: 0 100%;
+      transition: 0.5s 0s;
+      }
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+      color: #008583;
+      background-size: 100% 100%;
+      cursor: pointer;
+      }
+
+
+

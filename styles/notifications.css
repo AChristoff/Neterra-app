@@ -1,0 +1,69 @@
+
+#notifications {
+      position: fixed;
+
+      }
+
+.notification {
+      font-size: 1.1em;
+      color: #FFFFFF;
+      display: none;
+      text-align: right;
+      }
+
+.notification > span {
+      position: fixed;
+      top: 1em;
+      right: 1em;
+      width: 16em;
+      height: auto;
+      text-align: center;
+      padding: 0.2em 0.5em;
+      display: inline-block;
+      border-radius: 0.4em;
+      }
+
+#loadingBox > span {
+      top: 40%;
+      left: 47.5%;
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      width: 5em;
+      height: 5em;
+      border-radius: 50%;
+      }
+
+#loadingBox > span:after {
+      content: " ";
+      display: block;
+      width: 3em;
+      height: 3em;
+      margin: 1px;
+      border-radius: 50%;
+      border: 5px solid;
+      border-color: #008583 transparent #008583 transparent;
+      background-color: #FFFFFF;
+      animation: lds-dual-ring 5.2s linear infinite;
+      }
+
+@keyframes lds-dual-ring {
+      0% {
+            transform: rotate(0deg);
+            }
+      100% {
+            transform: rotate(360deg);
+            }
+      }
+
+#infoBox > span {
+      border: solid #008583 2px;
+      background: #008583;
+      color: #FFFFFF;
+      }
+
+#errorBox > span {
+      border: solid #F50 2px;
+      background: #F50;
+      color: #FFFFFF;
+      }
