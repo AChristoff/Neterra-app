@@ -21,7 +21,7 @@ function dragAndDrop() {
         }, false);
 
         function _onDragOver(evt) {
-            evt.preventDefault();
+            
             evt.dataTransfer.dropEffect = 'move';
 
             let target = evt.target;
@@ -31,8 +31,7 @@ function dragAndDrop() {
             }
         }
 
-        function _onDragEnd(evt) {
-            evt.preventDefault();
+        function _onDragEnd() {
 
             dragEl.classList.remove('ghost');
             draggableList.removeEventListener('dragover', _onDragOver, false);
